@@ -4,7 +4,7 @@ import time
 class Config(object):
 
     # Get a bot token from botfather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5438560080:AAF_XK_wa5aY0ZdVPabW2Q1HZVJQYndWOU0")
 
 
     # Get from my.telegram.org (or @UseTGXBot)
