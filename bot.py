@@ -4,7 +4,7 @@ import pyrogram
 if bool(os.environ.get("WEBHOOK", False)):
     from sample_config import Config
 else:
-    from config import Config
+    from config import TG_BOT_TOKEN,API_ID,API_HASH,AUTH_USERS
 
 
 
