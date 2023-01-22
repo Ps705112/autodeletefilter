@@ -4,7 +4,7 @@ import time
 class Config(object):
 
     # Get a bot token from botfather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5438560080:AAF_XK_wa5aY0ZdVPabW2Q1HZVJQYndWOU0")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5833872497:AAGOgwDkuZ42W2rZEzmecwccpvE-ne3LmL4")
 
 
     # Get from my.telegram.org (or @UseTGXBot)
@@ -24,7 +24,7 @@ class Config(object):
 
 
     # ID of users that can use the bot commands
-    AUTH_USERS = set(str(x) for x in os.environ.get("AUTH_USERS", "5047601096").split())
+    AUTH_USERS = set(str(x) for x in os.environ.get("AUTH_USERS", "966029924").split())
 
 
     # To save user details (Usefull for getting userinfo and total user counts)
