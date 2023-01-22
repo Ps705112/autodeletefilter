@@ -11,7 +11,7 @@ class Script(object):
 
 MADE BY @pankajpandiyar
 
-See <i>/help</i> for commands and more details.</b>
+.</b>
 """
 
 
@@ -39,15 +39,15 @@ See <i>/help</i> for commands and more details.</b>
 
 <b>Connection Commands;</b>
 
-<code>/connect groupid</code>  -  Connect your group to my PM. You can also simply use,
-<code>/connect</code> in groups.
+<code>/addgroup groupid</code>  -  Connect your group to my PM. You can also simply use,
+<code>/addgroup</code> in groups.
 
-<code>/connections</code>  -  Manage your connections.
+<code>/mygroups</code>  -  Manage your connections.
 
 
 <b>Extras</b>
 
-/status  -  Shows current status of your bot (Auth User Only)
+
 
 /id  -  Shows ID information
 
