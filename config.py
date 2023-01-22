@@ -45,6 +45,7 @@ class Config(object):
     CONNECT_COMMAND = os.environ.get("CONNECT_COMMANDD", "connect")
     DISCONNECT_COMMAND = os.environ.get("DISCONNECT_COMMANDD", "disconnect")
 
+    ADMINS = os.environ.get("ADMINS", "966029924")
 
     # To record start time of bot
     BOT_START_TIME = time.time()
