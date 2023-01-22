@@ -217,7 +217,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Command Help", callback_data="help_data")
+                    InlineKeyboardButton("Developer", url=f"https://t.me/pankajpandiyar")
                 ]
             ]
         ),
