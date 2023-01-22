@@ -43,7 +43,7 @@ MADE BY @pankajpandiyar
 <code>/addgroup groupid</code>  -  Connect your group to my PM. You can also simply use,
 <code>/addgroup</code> in groups.
 
-<code>/mygroups</code>  -  Manage your connections.
+
 
 
 <b>Extras</b>
