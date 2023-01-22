@@ -14,11 +14,11 @@ from database.connections_mdb import add_connection, all_connections, if_active,
 
 @Client.on_message((filters.private | filters.group) & filters.command(Config.CONNECT_COMMAND))
 async def addconnection(client,message):
-    if str(message.from_user.id) not in Config.AUTH_USERS:
+    userid = message.from_user.id
 
-        return
+
     chat_type = message.chat.type
-    userid = Config.AUTH_USERS
+    
     if chat_type == "private":
         try:
             cmd, group_id = message.text.split(" ", 1)
