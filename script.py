@@ -16,7 +16,7 @@ See <i>/help</i> for commands and more details.</b>
 
 
     HELP_MSG = """
-<i>Add me as admin in your group and start filtering :)</i>
+<i> This Bot is only made for parsonal use :)</i>
 
 
 <b>Basic Commands;</b>
@@ -60,7 +60,7 @@ See <i>/help</i> for commands and more details.</b>
 
     ABOUT_MSG = """⭕️<b>My Name : Filter Bot</b>
 
-⭕️<b>Creater :</b> @Beastonejnanesh   
+⭕️<b>Creater :</b> @pankajpandiyar   
 
 ⭕️<b>Language :</b> <code>Python3</code>
 
