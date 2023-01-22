@@ -4,7 +4,7 @@ import pyrogram
 if bool(os.environ.get("WEBHOOK", False)):
     from sample_config import Config
 else:
-    from Config import Config.py
+    from config import config.py
 
 
 
