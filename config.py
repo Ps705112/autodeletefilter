@@ -42,7 +42,7 @@ class Config(object):
     ADD_FILTER_CMD = os.environ.get("ADD_FILTER_CMD", "filter")
     DELETE_FILTER_CMD = os.environ.get("DELETE_FILTER_CMDD", "del")
     DELETE_ALL_CMD = os.environ.get("DELETE_ALL_CMDD", "delall")
-    CONNECT_COMMAND = os.environ.get("CONNECT_COMMANDD", "adddb")
+    CONNECT_COMMAND = os.environ.get("CONNECT_COMMANDD", "addgroup")
     DISCONNECT_COMMAND = os.environ.get("DISCONNECT_COMMANDD", "disconnect")
 
     ADMINS = os.environ.get("ADMINS", "966029924")
