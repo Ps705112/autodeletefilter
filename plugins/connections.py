@@ -12,9 +12,11 @@ from database.connections_mdb import add_connection, all_connections, if_active,
 
 
 
-@Client.on_message((filters.private | filters.group) & filters.command(Config.CONNECT_COMMAND) & filters.chat(Config.ADMINS))
+@Client.on_message((filters.private | filters.group) & filters.command(Config.CONNECT_COMMAND))
 async def addconnection(client,message):
-    userid = message.from_user.id
+    if str(message.from_user.id) not in Config.AUTH_USERS:
+
+        return
     chat_type = message.chat.type
 
     if chat_type == "private":
