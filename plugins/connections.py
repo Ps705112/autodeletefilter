@@ -18,7 +18,7 @@ async def addconnection(client,message):
 
         return
     chat_type = message.chat.type
-    userid = Config.AUTH_USER
+    userid = Config.AUTH_USERS
     if chat_type == "private":
         try:
             cmd, group_id = message.text.split(" ", 1)
