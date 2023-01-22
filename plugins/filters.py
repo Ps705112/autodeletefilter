@@ -3,6 +3,7 @@ import re
 import io
 import pyrogram
 import asyncio
+from config import *
 
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
