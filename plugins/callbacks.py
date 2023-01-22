@@ -30,7 +30,7 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Developer", url="https://t.me/pankajpandiyar)
+                    InlineKeyboardButton("Developer", url=f"https://t.me/pankajpandiyar")
                 ]
             ]
         )
