@@ -48,7 +48,7 @@ async def cb_handler(client, query):
             [
                 [
                     InlineKeyboardButton("Developer", url="https://t.me/pankajpandiyar")
-                    InlineKeyboardButton("About Me", callba
+
                 ]
 
 
