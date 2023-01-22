@@ -1,16 +1,16 @@
 {
-    "name": "TECHNO MINDZ FILTER BOT",
+    "name": "FILTER BOT",
     "description": "An unlimited filter bot using Mongo DB",
     "logo": "https://telegra.ph/file/a2a1dac049b50dc7f8dfb.jpg",
     "keywords": [
         "UNLIMITED",
         "Filter",
         "Telegram Bot",
-        "TECHNO MINDZ"
+        ""
     ],
-    "website": "https://t.me/Technomindzchat",
-    "repository": "https://github.com/TechnoMindz/FilterBot",
-    "success_url": "https://telegram.dog/TECHNOMINDZCHAT",
+
+    "repository": "https://github.com/Ps705112/autodeletefilter",
+    "success_url": "https://telegram.dog/pankajpandiyar",
     "env": {
         "WEBHOOK": {
             "description": "No need to change this field!",
@@ -18,23 +18,23 @@
         },
         "TG_BOT_TOKEN": {
             "description": "Your Telegram Bot Token from @BotFather",
-            "value": "5438560080:AAF_XK_wa5aY0ZdVPabW2Q1HZVJQYndWOU0"
+            "value": ""
         },
         "API_HASH": {
             "description": "Your API Hash from my.telegram.org",
-            "value": "c53ac45c5e24205743c58ed8a748b90a"
+            "value": ""
         },
         "API_ID": {
             "description": "Your APP ID from my.telegram.org",
-            "value": "13271631"
+            "value": ""
         },
         "AUTH_USERS": {
             "description": "ID of users that can use the bot commands",
-            "value": "5047601096"
+            "value": ""
         },
         "DATABASE_URI": {
             "description": "Database URL from https://cloud.mongodb.com/",
-            "value": "mongodb+srv://mangodb:mangodb@cluster0.dskkdky.mongodb.net/?retryWrites=true&w=majority"
+            "value": ""
         },
         "DATABASE_NAME": {
             "description": "Your database name from mongoDB. ( Default will 'Cluster0' )",
