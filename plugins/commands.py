@@ -265,7 +265,7 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://t.me/ROCKERSBACKUP")
+                        "SOURCE CODE", url="https://t.me/pankajpandiyar")
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
