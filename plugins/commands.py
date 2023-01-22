@@ -237,6 +237,9 @@ async def start(client, message):
 
 @trojanz.on_message(filters.command('help') & filters.private)
 async def help(client, message):
+    if str(message.from_user.id) not in Config.AUTH_USERS:
+
+        return
     await message.reply_text(
         text=Script.HELP_MSG,
         disable_web_page_preview=True,
